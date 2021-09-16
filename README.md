@@ -100,4 +100,13 @@
 <h5>Data de entrega: 23/09 | até às 17:00</h5>
 <h6>OBS: A página conterá a Barra de nagevação e Footer feitas anteriormente.</h6>
 
+<hr>
+
+<h3>Sprint 10 - Finalização da Criação do Site</h3>
+<ul>
+	<li>Estória 1 - Testes finais e entrega</li>
+	<li>Estimativa: 1 hora.</li>
+</ul>
+<h5>Data de entrega: 24/09 | até às 10:00</h5>
+
 
