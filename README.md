@@ -8,7 +8,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap na Barra de navegação.</li>
 	<li>Estimativa: 30 min.</li>
 </ul>
-<h5>Data de entrega: 17/09 | até às 17:00</h5>
 
 <hr>
 
@@ -19,7 +18,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap no Header.</li>
 	<li>Estimativa: 1 hora.</li>
 </ul>
-<h5>Data de entrega: 17/09 | até às 17:00</h5>
 
 <hr>
 
@@ -32,7 +30,6 @@
 	<li>Estória 2 - Inserir Filtro em Javascript.</li>
 	<li>Estimativa: 1 hora.</li>
 </ul>
-<h5>Data de entrega: 18/09 | até às 17:00</h5>
 
 <hr>
 
@@ -43,7 +40,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap na Seção de Lançamentos.</li>
 	<li>Estimativa: 1 hora.</li>
 </ul>
-<h5>Data de entrega: 19/09 | até às 17:00</h5>
 
 <hr>
 
@@ -54,7 +50,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap na Seção de Ofertas e Sobre Nós.</li>
 	<li>Estimativa: 2 hora.</li>
 </ul>
-<h5>Data de entrega: 20/09 | até às 17:00</h5>
 
 <hr>
 
@@ -65,7 +60,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap na Seção de Itens Populares e Inscrição.</li>
 	<li>Estimativa: 2 hora.</li>
 </ul>
-<h5>Data de entrega: 21/09 | até às 17:00</h5>
 
 <hr>
 
@@ -76,7 +70,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap no Footer.</li>
 	<li>Estimativa: 2 hora.</li>
 </ul>
-<h5>Data de entrega: 22/09 | até às 17:00</h5>
 
 <hr>
 
@@ -87,7 +80,6 @@
 	<li>Estória 2 - Inserir Css e Bootstrap na Página Institucional.</li>
 	<li>Estimativa: 1 hora.</li>
 </ul>
-<h5>Data de entrega: 23/09 | até às 17:00</h5>
 <h6>OBS: A página conterá a Barra de nagevação e Footer feitas anteriormente.</h6>
 
 <hr>
@@ -97,7 +89,6 @@
 	<li>Estória 1 - Criação da Página de Descrição do Produto em HTML, Css e Bootstrap.</li>
 	<li>Estimativa: 2 hora.</li>
 </ul>
-<h5>Data de entrega: 23/09 | até às 17:00</h5>
 <h6>OBS: A página conterá a Barra de nagevação e Footer feitas anteriormente.</h6>
 
 <hr>
@@ -107,6 +98,5 @@
 	<li>Estória 1 - Testes finais e entrega</li>
 	<li>Estimativa: 1 hora.</li>
 </ul>
-<h5>Data de entrega: 24/09 | até às 10:00</h5>
 
 
