@@ -1,0 +1,325 @@
+/* ====================== GOOGLE FONTS ================== */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+/* ====================== VARIABLES ================== */
+:root {
+
+    /* Font */
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+
+    /* Color */
+    --yellow: #889EAF;
+    /*--yellow: #ECB602;*/
+    --purple: #d3af82;
+    /*--purple: #55185D;*/
+    --white: #fff;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+/* ====================== BUTTON ================== */
+
+/* Main Section */
+.main .btn {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 12px 22px;
+    border-radius: 0;
+    transition: all 1s ease;
+    border: none;
+}
+.main .btn:hover {
+    background-color: var(--yellow);
+    letter-spacing: 3px;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Coleções Section */
+
+/* Botão Filtro */
+.active-filter-btn {
+    background-color: var(--purple) !important;
+}
+.filter-button-group .btn:not(.active-filter-btn) {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.filter-button-group .btn:hover {
+    letter-spacing: 0;
+    text-shadow: none;
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--white);
+}
+
+/* Coleções Section */
+
+/* Botão Comprar */
+a.btn {
+    background-color: var(--purple);
+    color: var(--white);
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+a.btn:hover {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+.linha {
+    width: 40px;
+    height: 2px;
+    background-color: var(--purple);
+    margin: 0 33px 0 auto;
+}
+
+/* Lançamento Section */
+#lancamento a.btn {
+    background-color: var(--purple);
+    color: var(--white);
+}
+#lancamento a.btn:hover {
+    background-color: var(--yellow);
+}
+#lancamento .linha {
+    opacity: 0;
+}
+
+/* ====================== PROMOCAO ================== */
+#promocao {
+    background-color: var(--purple);
+}
+#promocao p {
+    font-size: 15px;
+    font-family: var(--sm-font);
+}
+
+/* ====================== HEADER ================== */
+#header {
+    background: url(../images/banner-img-header.jpg) top/cover no-repeat;
+}
+
+/* ====================== NAVBAR ================== */
+.navbar-nav {
+    background-color: var(--white);
+    width: 100%;
+    right: 100%;
+    opacity: 0;
+    transition: all 1s ease;
+    z-index: 1;
+}
+.nav-list {
+    text-align: center;
+    line-height: 50px;
+    font-family: var(--lg-font) !important;
+}
+.nav-list:hover {
+    background-color: var(--purple);
+    transition: all 0.8s ease;
+}
+.nav-link {
+    color: var(--yellow) !important;
+}
+.nav-link:hover {
+    color: var(--white) !important;
+}
+
+/* Função Click Javascript */
+.navbar-nav.is-active {
+    right: 0;
+    opacity: 1;
+}
+
+/* Estilização da Logo */
+.logo {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+
+/* HAMBURGER MENU */
+
+/* Estilização do Menu Hamburger */
+.hamburger-menu {
+    cursor: pointer;
+}
+.line {
+    background-color: var(--yellow);
+    height: 2px;
+}
+.line:nth-child(1) {
+    width: 10px;
+}
+.line:nth-child(2) {
+    width: 30px;
+    margin: 7px 0;
+}
+.line:nth-child(3) {
+    width: 20px;
+    margin-left: auto;
+}
+
+/* Interação do Menu usando Javascript */
+.hamburger-menu.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5.5px, -2px);
+}
+.hamburger-menu.active .line:nth-child(2) {
+    transform: rotate(-45deg);
+}
+.hamburger-menu.active .line:nth-child(3) {
+    transform: rotate(45deg) translate(-3px, -4px);
+}
+.hamburger-menu.active .line,
+.line {
+    transition: all 0.8s ease;
+}
+
+/* ====================== MAIN ================== */
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: var(--purple);
+    border-radius: 0;
+    opacity: 0.2;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.vh-100 {
+    position: relative;
+    z-index: 0;
+}
+#main h2 {
+    font-size: 18px;
+    letter-spacing: 7px;
+    padding: 0;
+    margin: 0 0;
+}
+#main h1 {
+    font-family: var(--lg-font) !important;
+    font-size: 60px;
+    margin: 0 0 50px;
+    text-shadow: 13px 13px 0px rgba(250, 250, 250, 0.6);
+}
+.change-color {
+    font-weight: 400;
+}
+
+/* ====================== COLEÇÕES ================== */
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 50px;
+    background-color: var(--purple);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.colecao-img span {
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: var(--yellow);
+    color: var(--white);
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+/* ====================== LANÇAMENTOS ================== */
+.lancamento-img span {
+    top: 20px;
+    right: 20px;
+}
+.lancamento-img img{
+    transition: all 0.3s ease;
+}
+.lancamento-img:hover img{
+    transform: scale(1.2);
+}
+
+/* ====================== POPULARES ================== */
+#oferta {
+    background: url('../images/offer-img.jpg') center top/cover no-repeat;
+}
+#oferta .row {
+    min-height: 100vh;
+}
+
+/* ====================== SOBRE NÓS ================== */
+#sobre .btn {
+    margin-bottom: 30px;
+}
+
+/* ====================== INSCREVER ================== */
+#inscricao{
+    background-color: rgba(179, 179, 179, 0.07);
+}
+#inscricao p {
+    max-width: 600px;
+}
+#inscricao .btn {
+    background-color: var(--purple);
+}
+#inscricao .btn:hover {
+    background-color: var(--yellow);
+}
+#inscricao .input-group {
+    max-width: 500px;
+}
+#inscricao .form-control {
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+/* ====================== FOOTER ================== */
+footer a {
+    transition: color 0.5s ease;
+}
+footer a:hover {
+    color: var(--purple) !important;
+}
+
+
+/* ====================== MEDIA QUERY ================== */
+@media (max-width: 768px) {
+    #main .btn {
+        background-color: var(--yellow);
+        letter-spacing: 3px;
+        font-size: 14px;
+        text-shadow: 5px 6px 4px rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media (max-width: 576px) {
+    #header {
+        background: url(../images/banner-img-header.jpg) top/cover no-repeat;
+    }
+    #main {
+        text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+        color: var(--white);
+    }
+    #main h2 {
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+        text-shadow: none;
+    }
+    #main h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    #main .change-color {
+        font-weight: 500;
+    }
+}
+
+
+

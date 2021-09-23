@@ -1,0 +1,33 @@
+#header {
+    background: none;
+}
+
+#pagina-sobre {
+    background: url('../../images/about-us-img.jpg') center top/cover no-repeat;
+    height: 600px;
+}
+#pagina-sobre .container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pagina-sobre .container h1{
+    font-family: var(--lg-font);
+    font-size: 50px;
+    opacity: 0.5;
+}
+#pagina-sobre h1.overlay{
+    transform: translate(18px, 18px);
+    opacity: 0.3;
+}
+
+/* ====================== MEDIA QUERY ================== */
+@media (max-width: 576px) {
+    #pagina-sobre {
+        height: 300px;
+    }
+    #pagina-sobre .container{
+        height: 300px;
+    }
+}
